@@ -54,6 +54,61 @@ git Clone https://github.com/viratthakur/VT-Screen-Server-.git
  python3 server\ 03.py
  
 ```
+# VT-Screen Server
+
+A lightweight screen sharing Package that allows users to securely share their screen with authorized devices using a generated link.
+
+## Features
+
+* Share your screen using a secure link
+* Simple and lightweight interface
+* Fast screen streaming
+* Cross-device access through a web browser
+* Easy setup and configuration
+
+## Requirements
+
+* Windows 10/11
+* Python 3.x (if running from source)
+* Modern web browser
+
+## Installation
+
+1. Clone the repository.
+2. Install the required dependencies.
+3. Start the server.
+4. Open the generated link on an authorized device.
+
+## Usage
+
+1. Launch the Package.
+2. Start screen sharing.
+3. Share the generated link only with people you trust.
+4. Stop sharing when your session is complete.
+
+## Security Notice
+
+This project is intended for **educational, development, and authorized screen-sharing purposes only**.
+
+Only use this Package on devices you own or where you have explicit permission from the device owner.
+
+The developer is not responsible for any misuse of this Package.
+
+## Roadmap
+
+* End-to-end encryption
+* File transfer support
+* Multi-client support
+* Mobile-friendly interface
+
+## Contributing
+
+Contributions, bug reports, and feature requests are welcome.
+
+---
+
+
+
 
 
 ## Special Thanks ❤️ 
@@ -78,3 +133,5 @@ This project was inspired by a feature request from one of my YouTube subscriber
 This project is published for portfolio and educational demonstration purposes.
 No part of this source code may be copied, redistributed, or used without permission.
 
+
+Made with ❤️ by **VIRAT THAKUR**
