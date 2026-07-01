@@ -35,14 +35,19 @@ pip3 install flask flask-sock mss pillow opencv-python numpy --break-system-pack
 
 
 
-# KaliLinux Deb Package 
+# Kali Linux Deb Package 
 Python 3 support in kalilinux 
 <img width="1645" height="844" alt="kalilnux screen Shoot" src="https://github.com/user-attachments/assets/4d081875-896d-440b-b3c3-fbbb816de8c8" />
 
 
 
 
-## Prerequisites
+## Installing (Kali Linux )
+```bash
+git Clone https://github.com/viratthakur/VT-Screen-Server-.git
+```
+
+
 ```bash
  python --version
  pip3 install flask flask-sock mss pillow opencv-python numpy --break-system-packages
