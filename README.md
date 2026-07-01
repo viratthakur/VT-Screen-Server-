@@ -6,10 +6,26 @@ IMPORTANT
 
 
 AND RUN WINDOWS CMD NOT USING POWERSHELL 
+
+<img width="1910" height="930" alt="Windows " src="https://github.com/user-attachments/assets/0384288d-7840-436c-8386-70cb9cc0b290" />
+
 WINDDOWS 
 ```bash
-# Python installed ho 
- #  pip install flask mss pillow
-#  pip install flask-sock 
+#Python installed ho 
+#pip install flask mss pillow
+#pip install flask-sock
+#pip3 install flask flask-sock mss pillow opencv-python numpy --break-system-packages
 ## Installation
 ```
+KaliLinux Deb Package 
+Python3 support in kalilinux 
+<img width="1645" height="844" alt="kalilnux screen Shoot" src="https://github.com/user-attachments/assets/4d081875-896d-440b-b3c3-fbbb816de8c8" />
+
+
+IMPORTANT PACK
+```bash
+#python --version
+#pip3 install flask flask-sock mss pillow opencv-python numpy --break-system-packages
+#python3 server\ 03.py
+ 
+``
