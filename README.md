@@ -12,18 +12,18 @@ IMPORTANT
 
 # WINDDOWS 
 ```bash
-#Python installed ho 
+#Python --version  
 #pip install flask mss pillow
 #pip install flask-sock
 #pip3 install flask flask-sock mss pillow opencv-python numpy --break-system-packages
 ## Installation
 ```
-KaliLinux Deb Package 
+# KaliLinux Deb Package 
 Python3 support in kalilinux 
 <img width="1645" height="844" alt="kalilnux screen Shoot" src="https://github.com/user-attachments/assets/4d081875-896d-440b-b3c3-fbbb816de8c8" />
 
 
-IMPORTANT PACK
+# IMPORTANT PACK
 ```bash
 #python --version
 #pip3 install flask flask-sock mss pillow opencv-python numpy --break-system-packages
