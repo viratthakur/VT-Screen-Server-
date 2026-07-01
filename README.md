@@ -6,7 +6,7 @@ IMPORTANT
 
 
 AND RUN WINDOWS CMD NOT USING POWERSHELL 
-
+WINDDOWS 
 ```bash
 # Python installed ho 
  #  pip install flask mss pillow
