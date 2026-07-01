@@ -32,9 +32,14 @@ pip3 install flask flask-sock mss pillow opencv-python numpy --break-system-pack
  python "server 03.py"
 
 ```
+
+
+
 # KaliLinux Deb Package 
 Python 3 support in kalilinux 
 <img width="1645" height="844" alt="kalilnux screen Shoot" src="https://github.com/user-attachments/assets/4d081875-896d-440b-b3c3-fbbb816de8c8" />
+
+
 
 
 ## Prerequisites
@@ -43,4 +48,28 @@ Python 3 support in kalilinux
  pip3 install flask flask-sock mss pillow opencv-python numpy --break-system-packages
  python3 server\ 03.py
  
-``
+```
+
+
+## Special Thanks ❤️ 
+This project was inspired by a feature request from one of my YouTube subscribers. The implementation and development were completed by me.
+
+
+## YouTube
+
+📺 [https://www.youtube.com/@VIRATH4K3R](https://www.youtube.com/@VIRATH4K3R896600)
+
+## Connect with Me
+
+- 📺 **YouTube:** https://www.youtube.com/@VIRATH4K3R
+- 💻 **GitHub:** https://github.com/viratthakur
+
+
+
+## Copyright
+
+© 2026 VIRAT THAKUR. All Rights Reserved.
+
+This project is published for portfolio and educational demonstration purposes.
+No part of this source code may be copied, redistributed, or used without permission.
+
