@@ -8,8 +8,8 @@ IMPORTANT
 AND RUN WINDOWS CMD NOT USING POWERSHELL 
 
 ```bash
-01 Python installed ho 
- 02  pip install flask mss pillow
-03  pip install flask-sock 
+# Python installed ho 
+ #  pip install flask mss pillow
+#  pip install flask-sock 
 ## Installation
 ```
