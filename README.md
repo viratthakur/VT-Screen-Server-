@@ -96,9 +96,9 @@ The developer is not responsible for any misuse of this Package.
 
 ## Roadmap
 
-* End-to-end encryption
-* File transfer support
-* Multi-client support
+* End-to-end encryption -coming soon 
+* File transfer support - Coming Soon 
+* Multi-client support -Coming soon 
 * Mobile-friendly interface
 
 ## Contributing
