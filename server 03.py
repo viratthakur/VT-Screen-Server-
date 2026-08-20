@@ -83,7 +83,7 @@ HTML = """
 </html>
 """
 
-def capture_screen():
+def vt_capture_screen():
     with mss.mss() as sct:
         monitor = sct.monitors[1]
         screenshot = sct.grab(monitor)
@@ -103,14 +103,14 @@ def stream(ws):
     while True:
         try:
             start = time.time()
-            frame = capture_screen()
+            frame = vt_capture_screen()
             ws.send(frame)
             elapsed = time.time() - start
             time.sleep(max(0, 0.05 - elapsed))
         except Exception:
             break
 
-def get_local_ip():
+def vt_get_my_ip():
     try:
         s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         s.connect(("8.8.8.8", 80))
@@ -121,8 +121,13 @@ def get_local_ip():
         return "127.0.0.1"
 
 if __name__ == "__main__":
-    ip = get_local_ip()
+    ip =vt_get_my_ip()
     port = 5050
+    print("\n" + "="*55)
+    print("  VT-Screen-Server")
+    print("  Original Author : VIRAT THAKUR")
+    print("  YouTube Channel : @VIRATH4K3R")
+    print("  https://www.youtube.com/@VIRATH4K3R")
     print(f"\n[*] Screen Share Server chalu hai boss man")
     print(f"[*] Local URL:  http://{ip}:{port}")
     print(f"[*] Ngrok URL:  https://antihero-certainly-aftermost.ngrok-free.dev")
