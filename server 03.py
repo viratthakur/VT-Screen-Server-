@@ -3,7 +3,7 @@
 # Unauthorized copying, modification, or redistribution is prohibited.
 # This code was created for educational/portfolio purposes only.
 
-print(f"\n[*] Screen Share Server chalu hai boss man")  # yeh aapka signature hai
+  # yeh aapka signature hai
 # ============================================================
 # VT-Screen-Server
 # Original Author : VIRAT THAKUR
