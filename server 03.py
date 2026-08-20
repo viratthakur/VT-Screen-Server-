@@ -125,7 +125,7 @@ if __name__ == "__main__":
     port = 5050
     print("\n" + "="*55)
     print("  VT-Screen-Server")
-    print("  Original Author : VIRAT THAKUR")
+    print("  Original Author :- VIRAT THAKUR")
     print("  YouTube Channel : @VIRATH4K3R")
     print("  https://www.youtube.com/@VIRATH4K3R")
     print(f"\n[*] Screen Share Server chalu hai boss man")
