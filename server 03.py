@@ -3,6 +3,17 @@
 # Unauthorized copying, modification, or redistribution is prohibited.
 # This code was created for educational/portfolio purposes only.
 
+print(f"\n[*] Screen Share Server chalu hai boss man")  # yeh aapka signature hai
+# ============================================================
+# VT-Screen-Server
+# Original Author : VIRAT THAKUR
+# YouTube         : @VIRATH4K3R
+# Created         : 2026
+# ============================================================
+# This code is proprietary. 
+# Do not copy, rewrite with AI, or claim as your own work.
+# ============================================================
+
 from flask import Flask, render_template_string, Response, request
 from flask_sock import Sock
 import mss
