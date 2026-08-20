@@ -30,7 +30,7 @@ HTML = """
 </html>
 """
 
-def capture_screen():
+def vt_capture_screen():
     with lock:
         with mss.mss() as sct:
             monitor = sct.monitors[1]
@@ -43,7 +43,7 @@ def capture_screen():
 
 def generate_frames():
     while True:
-        frame = capture_screen()
+        frame = vt_capture_screen()
         yield (
             b"--frame\r\n"
             b"Content-Type: image/jpeg\r\n\r\n" + frame + b"\r\n"
@@ -60,7 +60,7 @@ def stream():
         mimetype="multipart/x-mixed-replace; boundary=frame"
     )
 
-def get_local_ip():
+def vt_get_my_ip():
     try:
         s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         s.connect(("8.8.8.8", 80))
@@ -71,7 +71,7 @@ def get_local_ip():
         return "127.0.0.1"
 
 if __name__ == "__main__":
-    ip = get_local_ip()
+    ip = vt_get_my_ip()
     port = 5050
     print(f"\n[*] Screen Share Server chalu hai boss man")
     print(f"[*] Local URL: http://{ip}:{port}")
