@@ -1,3 +1,8 @@
+# Copyright (c) 2026 VIRAT THAKUR. All Rights Reserved.
+# Original Author: VIRAT THAKUR (YouTube: @VIRATH4K3R)
+# Unauthorized copying, modification, or redistribution is prohibited.
+# This code was created for educational/portfolio purposes only.
+
 from flask import Flask, Response, render_template_string
 import mss
 from PIL import Image
