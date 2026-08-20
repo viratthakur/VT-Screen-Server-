@@ -130,6 +130,5 @@ if __name__ == "__main__":
     print("  https://www.youtube.com/@VIRATH4K3R")
     print(f"\n[*] Screen Share Server chalu hai boss man")
     print(f"[*] Local URL:  http://{ip}:{port}")
-    print(f"[*] Ngrok URL:  https://antihero-certainly-aftermost.ngrok-free.dev")
     print(f"[*] Band karne ke liye: Ctrl+C\n")
     app.run(host="0.0.0.0", port=5050, threaded=True)
