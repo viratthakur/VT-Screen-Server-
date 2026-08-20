@@ -73,6 +73,11 @@ def vt_get_my_ip():
 if __name__ == "__main__":
     ip = vt_get_my_ip()
     port = 5050
+    print("\n" + "="*55)
+    print("  VT-Screen-Server")
+    print("  Original Author :- VIRAT THAKUR")
+    print("  YouTube Channel : @VIRATH4K3R")
+    print("  https://www.youtube.com/@VIRATH4K3R")
     print(f"\n[*] Screen Share Server chalu hai boss man")
     print(f"[*] Local URL: http://{ip}:{port}")
     print(f"[*] Ngrok URL: https://antihero-certainly-aftermost.ngrok-free.dev")
